@@ -81,25 +81,34 @@
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-      <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-      <em>Beverly, Illinois</em> -->
-
-  </section>
-
-
-  <!-- Press -->
-
-  <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
-
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="700" data-pause="hover">
+      <!-- id = unique, the name of the carousel // data-ride can be "false" which makes it static-->
+      <div class="carousel-inner">
+        <!-- The content of the carousel; the slides that will be changed-->
+        <!-- the divs are the slides-->
+        <div class="carousel-item active">
+          <!-- the first slide that we want to see at the start has "active" on the class. Obligatory has to be in one-->
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img src="images/dog-img.jpg" alt="dog-profile" class="testimonial-img">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <!-- the data-bs-target is the id of the carousel we want the btns to be in // the type does not necessarily has to be a button -->
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          <!-- Features aria-hidden and cisually hidden are made for people with loss of sight: it commands the page reader to say "previous".-->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
   </section>
 
 

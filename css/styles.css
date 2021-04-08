@@ -1,20 +1,21 @@
 body{
-  font-family: 'Montserrat, sans-serif'
+  font-family: 'Montserrat'
 }
 h1 {
-  font-family: 'Montserrat-Black';
+  font-family: 'Montserrat';
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
   margin: 5% auto;
 }
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
 #title{
   background-color: #FF4C68;
   color: #FFF;
-}
-#features{
-  margin: 5rem 0;
-  text-align: center;
 }
 .container-fluid{
   padding: 3% 15%;
@@ -48,6 +49,10 @@ h1 {
   left: 70px;
 }
 /* Feature  icons */
+#features{
+  padding: 7% 15%;
+  text-align: center;
+}
 .feature-icon{
   margin: 2rem 0;
   color: #EF8172;
@@ -58,9 +63,33 @@ h1 {
 }
 .f-header{
   font-family: 'Montserrat';
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.5rem;
 }
 .f-text{
   color: #8F8F8F;
+}
+/* Testimonial section */
+#testimonials{
+  background-color: #FF4C68;
+  color: #FFF;
+  padding: 7% 15%;
+  text-align: center;
+}
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+/* Press */
+#press{
+  background-color: #FF4C68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  margin: 0 2rem;
 }
