@@ -23,9 +23,9 @@ h2{
 /* Navigation bar */
 
 .navbar-brand{
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: 'Ubuntu';
-  font-weight: normal;
+  font-weight: bold;
 }
 .navbar{
   padding: 0 0 3.5rem;
@@ -84,12 +84,27 @@ h2{
 .carousel-item{
   padding: 5% 15%;
 }
-/* Press */
-#press{
-  background-color: #FF4C68;
+/* Pricing */
+#pricing{
+  padding: 40px;
   text-align: center;
-  padding-bottom: 3%;
 }
-.press-img{
-  margin: 0 2rem;
+.price-column{
+  padding: 3% 2%;
+}
+.pricing-title{
+  color: #FF4C68;
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+.pricing-subtitle{
+  font-size: 1rem;
+  color: #8F8F8F;
+}
+.price-card:hover{
+  background-color: #FF4C68;
+  color: #FFF;
 }

@@ -88,13 +88,13 @@
         <!-- the divs are the slides-->
         <div class="carousel-item active">
           <!-- the first slide that we want to see at the start has "active" on the class. Obligatory has to be in one-->
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img src="images/dog-img.jpg" alt="dog-profile" class="testimonial-img">
           <em>Pebbles, New York</em>
         </div>
         <div class="carousel-item">
           <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <img src="images/lady-img.jpg" alt="lady-profile" class="testimonial-img">
           <em>Beverly, Illinois</em>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
@@ -114,35 +114,80 @@
 
   <!-- Pricing -->
 
+
   <section id="pricing">
-
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h3 class="pricing-title mt-3 font-weight-medium"><span class="navbar-brand">Tindog</span> is for everybody!</h3>
+            <h6 class="pricing-subtitle">feel free to chose between account op</h6>
+          </div>
+        </div>
+        <!-- Row  -->
+        <div class="row mt-5">
+          <!-- A card for every price box -->
+          <!-- Price deck contains all of our cards -->
+          <!-- Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card price-card">
+              <div class="card-body font-14">
+                <h5 class="mt-3 mb-1 font-weight-bold">BASIC</h5>
+                <h6 class="subtitle font-weight-normal">For dog enthusiasts</h6>
+                <div class="my-3">
+                  <span class="display-6">Free</span>
+                </div>
+                <ul class="list-inline">
+                  <li class="d-block py-2">5 matches per day</li>
+                  <li class="d-block py-2">10 Messages Per Day</li>
+                  <li class="d-block py-2">Unlimited App Usage</li>
+                </ul>
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card price-card">
+              <div class="card-body font-14">
+                <h5 class="mt-3 mb-1 font-weight-medium">INTERMEDIATE</h5>
+                <h6 class="subtitle font-weight-normal">For puppy lovers</h6>
+                <div class="my-3">
+                  <span class="display-6">Bag of puppy food</span>
+                </div>
+                <ul class="list-inline">
+                  <li class="d-block py-2">You help puppies in need</li>
+                  <li class="d-block py-2">Unlimited Matches</li>
+                  <li class="d-block py-2">Unlimited Messages</li>
+                  <li class="d-block py-2">Unlimited App Usage</li>
+                </ul>
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          <!-- Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card price-card">
+              <div class="card-body font-14">
+                <h5 class="mt-3 mb-1 font-weight-medium">HIGH CLASS</h5>
+                <h6 class="subtitle font-weight-normal">For all kinds of dogs lovers</h6>
+                <div class="my-3">
+                  <span class="display-6">Bag of dog food</span>
+                </div>
+                <ul class="list-inline">
+                  <li class="d-block py-2">You help dogs in need</li>
+                  <li class="d-block py-2">Pirority Listing</li>
+                  <li class="d-block py-2">Unlimited Matches</li>
+                  <li class="d-block py-2">Unlimited Messages</li>
+                  <li class="d-block py-2">Unlimited App Usage</li>
+                </ul>
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
 
