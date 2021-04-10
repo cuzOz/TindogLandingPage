@@ -18,7 +18,7 @@ h2{
   color: #FFF;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 /* Navigation bar */
 
@@ -50,8 +50,11 @@ h2{
 }
 /* Feature  icons */
 #features{
-  padding: 7% 15%;
+  padding: 7% 15% 0;
   text-align: center;
+  background-color: #FFF;
+  position:relative;
+  bottom: 150px;
 }
 .feature-icon{
   margin: 2rem 0;
@@ -107,4 +110,13 @@ h2{
 .price-card:hover{
   background-color: #FF4C68;
   color: #FFF;
+}
+@media (max-width: 1028px ){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
 }
