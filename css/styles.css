@@ -120,3 +120,21 @@ h2{
     text-align: center;
   }
 }
+/* Call to Action */
+#cta{
+  background-color: #FF4C68;
+  color: #FFF;
+  text-align: center;
+  padding: 7% 15%;
+}
+/* Footer */
+#footer{
+  background-color: #FFF;
+  color: #8F8F8F;
+  text-align: center;
+  padding: 5% 15%;
+}
+.footer-link{
+  margin: 10px 15px;
+  font-size: 3rem;
+}
