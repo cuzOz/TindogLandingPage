@@ -89,7 +89,7 @@ h2{
 }
 /* Pricing */
 #pricing{
-  padding: 40px;
+  padding: 7% 15%;
   text-align: center;
 }
 .price-column{
@@ -111,15 +111,6 @@ h2{
   background-color: #FF4C68;
   color: #FFF;
 }
-@media (max-width: 1028px ){
-  .title-img{
-    position: static;
-    transform: rotate(0);
-  }
-  #title{
-    text-align: center;
-  }
-}
 /* Call to Action */
 #cta{
   background-color: #FF4C68;
@@ -137,4 +128,14 @@ h2{
 .footer-link{
   margin: 10px 15px;
   font-size: 3rem;
+}
+
+@media (max-width: 1028px ){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
 }
